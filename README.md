@@ -10,7 +10,7 @@
   - [ ] Implement in-GPU cube operations (Triton)
 - [ ] Optimize model training
   - [x] Implement in-GPU training data generation
-  - [ ] Fix performance degradation in mixed-precision FP16 mode
+  - [x] Fix performance degradation in mixed-precision FP16 mode
 - [x] Accelerate inference
   - [x] Minimize data transfer between CPU and GPU
   - [x] Use log probability to reduce floating point error
