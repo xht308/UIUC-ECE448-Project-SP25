@@ -2,26 +2,26 @@
 
 ## TODO
 
-- [] Accelerate cube operations
+- [ ] Accelerate cube operations
   - [x] Enable TF32 mode for faster training/inference (TensorCore)
-  - [] Remove redundant sticker replacement plan generation
-  - [] Move cube creation to GPU
-  - [] Implement in-GPU cube operations (PyTorch)
-  - [] Implement in-GPU cube operations (Triton)
-- [] Optimize model training
-  - [] Implement in-GPU training data generation
-  - [] Fix performance degradation in mixed-precision FP16 mode
-- [] Accelerate inference
-  - [] Minimize data transfer between CPU and GPU
-  - [] Use log probability to reduce floating point error
-  - [] Parallelize the inference process
-- [] Adjust model structure
-  - [] Change activation-norm to norm-activation
-  - [] Adjust layer sizes
-  - [] Add layer norm or activation after ResidualBlock
-  - [] Use dropout
-  - [] Use weight initialization
-  - [] Test layer norm
-- [] Reinforcement learning
-  - [] Apply reinforcement learning after supervised learning
-  - [] Evaluate the result
+  - [x] Remove redundant sticker replacement plan generation
+  - [x] Move cube creation to GPU
+  - [x] Implement in-GPU cube operations (PyTorch)
+  - [ ] Implement in-GPU cube operations (Triton)
+- [ ] Optimize model training
+  - [x] Implement in-GPU training data generation
+  - [ ] Fix performance degradation in mixed-precision FP16 mode
+- [x] Accelerate inference
+  - [x] Minimize data transfer between CPU and GPU
+  - [x] Use log probability to reduce floating point error
+  - [x] Parallelize the inference process
+- [ ] Adjust model structure
+  - [ ] Change activation-norm to norm-activation
+  - [ ] Adjust layer sizes
+  - [ ] Add layer norm or activation after ResidualBlock
+  - [ ] Use dropout
+  - [ ] Use weight initialization
+  - [ ] Test layer norm
+- [ ] Reinforcement learning
+  - [ ] Apply reinforcement learning after supervised learning
+  - [ ] Evaluate the result
