@@ -2,13 +2,13 @@
 
 ## TODO
 
-- [ ] Accelerate cube operations
+- [x] Accelerate cube operations
   - [x] Enable TF32 mode for faster training/inference (TensorCore)
   - [x] Remove redundant sticker replacement plan generation
   - [x] Move cube creation to GPU
   - [x] Implement in-GPU cube operations (PyTorch)
-  - [ ] Implement in-GPU cube operations (Triton)
-- [ ] Optimize model training
+  - [x] Implement in-GPU cube operations (Triton)
+- [x] Optimize model training
   - [x] Implement in-GPU training data generation
   - [x] Fix performance degradation in mixed-precision FP16 mode
 - [x] Accelerate inference
