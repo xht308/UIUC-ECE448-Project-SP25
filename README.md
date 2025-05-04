@@ -16,10 +16,10 @@
   - [x] Use log probability to reduce floating point error
   - [x] Parallelize the inference process
 - [ ] Adjust model structure
-  - [ ] Change activation-norm to norm-activation
-  - [ ] Adjust layer sizes
-  - [ ] Add layer norm or activation after ResidualBlock
-  - [ ] Use dropout
+  - [x] Change activation-norm to norm-activation
+  - [x] Adjust layer sizes
+  - [x] Add layer norm or activation after ResidualBlock
+  - [x] Replace Adam with AdamW
   - [ ] Use weight initialization
   - [ ] Test layer norm
 - [ ] Reinforcement learning
